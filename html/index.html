@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="login-area">
+        <div id="card">
+            <h1>Meu Site</h1>
+            <p>Faça login para poder acessar todas as funcionalidades do nosso site.</p>
+            <form>
+                <div id="login">
+                    <label for="user" id="user-label">Login:</label>
+                    <input type="text" id="user" minlength="6" maxlength="12" placeholder="Nome de Usuário">
+                </div>
+                <div id="senha">
+                    <label for="password" id="password-label">Senha:</label>
+                    <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho">
+                    <input type="password" id="password" minlength="8" maxlength="16" placeholder="Digite sua senha">
+                </div>
+                <div id="buttons">
+                    <button type="button" id="register-btn">Cadastrar-se</button>
+                    <button type="button" id="login-btn">Entrar</button>
+                    <button type="button" id="password-recover">Recuperação de Senha</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

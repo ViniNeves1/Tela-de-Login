@@ -1,0 +1,172 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 15pt;
+    margin-left: 10px;
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card {
+    box-sizing: border-box;
+    background-color: goldenrod;
+    width: 375px;
+    height: 570px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+#userName {
+    margin-top: -10px;
+}
+
+#user {
+    display: block;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 170px;
+    height: 20px;
+}
+
+#user-label {
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#senha {
+    margin-top: 10px;
+}
+
+#password {
+    display: block;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 170px;
+    height: 20px;
+}
+
+#password-label {
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#password-repeat {
+    margin-top: 10px;
+}
+
+#rptPassword {
+    display: block;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 170px;
+    height: 20px;   
+}
+
+#rptPassword-label {
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#e-mail {
+    margin-top: 10px;
+}
+
+#email {
+    display: block;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 170px;
+    height: 20px;
+}
+
+#email-label {
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#celular {
+    margin-top: 10px;
+}
+
+#tel {
+    display: block;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 170px;
+    height: 20px;
+}
+
+#tel-label {
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#checkbox {
+    margin-top: 10px;
+}
+
+#check1 {
+    margin-left: 10px;
+    width: 40px;
+}
+
+#check1-label {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: oblique;
+    margin-left: -10px;
+    
+}
+
+#check2 {
+    margin-left: 10px;
+    width: 40px;
+}
+
+#check2-label {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: oblique;
+    margin-left: -10px;
+}
+
+#button {
+    text-align: center;
+}
+
+#sendBtn {
+    margin-right: 25px;
+    size-adjust: 20px;
+}

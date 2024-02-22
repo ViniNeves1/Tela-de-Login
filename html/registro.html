@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/register.css" />
+</head>
+<body>
+  <div id="login-area">
+    <div id="card">
+      <h1>Meu Site</h1>
+      <h2>Registro</h2>
+      <p>
+        Faça o cadastro em nosso site e aproveite todos os beneficios de um
+          assinante!
+      </p>
+      <form>
+        <div id="userName">
+            <label for="user" id="user-label">Nome de Usuário:</label>
+            <input type="text" name="user" id="user" minlength="6" maxlength="12" placeholder="Insira um Nome de Usuário" required/>
+        </div>
+        <div id="senha">
+            <label for="password" id="password-label">Senha:</label>
+            <input type="text" name="password" id="password" minlength="8" maxlength="16" placeholder="Insira sua senha" required/>
+        </div>
+        <div id="password-repeat">
+            <label for="rptPassword" id="rptPassword-label">Repita sua senha:</label>
+            <input type="text" name="rptPassword" id="rptPassword" minlength="8" maxlength="16" placeholder="Repita sua senha" required/>
+        </div>
+        <div id="e-mail">
+            <label for="email" id="email-label">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Insira seu e-mail" required/>
+        </div>
+        <div id="celular">
+            <label for="tel" id="tel-label">Celular:</label>
+            <input type="tel"class="form-control" name="tel" id="tel" placeholder="Numero de telefone" maxlength="15" pattern="\(\d{2}\)\s*\d{5}-\d{4}" required />
+        </div>
+        <div id="checkbox">
+            <div>
+              <input type="checkbox" id="check1" required>
+              <label for="check1" id="check1-label">Você concorda com os termos de usuário de nosso site</label>
+            </div>
+            <div>
+              <input type="checkbox" id="check2">
+              <label for="check2" id="check2-label">Você concorda em receber emails com atualizações de nosso site</label>
+            </div>
+        </div>
+        <div id="button">
+            <button type="button" id="sendBtn">Enviar</button>
+        </div>
+        <script src="../js/register.js"></script>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
