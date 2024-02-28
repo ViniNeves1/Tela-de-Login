@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Define o tipo de caracter e as configurações de viewport para o site -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Redefinição de senha</title>
+    <!-- Define o título do site -->
+    <link rel="stylesheet" href="../css/recovery.css">
+    <!-- Conecta  os estilos CSS ao HTML -->
 </head>
 <body>
-    
+    <!-- Define a área de recuperação da senha -->
+    <div id="recovey-area">
+        <!-- Define o cartão do site -->
+        <div id="card">
+            <!-- Define o título da area de  recuperação da senha -->
+            <h1>Recuperar Senha</h1><hr>
+            <!-- Define a área que  o usuário irá inserir o email -->
+            <div id="recuperacao">
+                <label for="email" id="emailLabel">Digite o e-mail cadastrado:</label>
+                <!-- Define o titulo do campo  de entrada do email -->
+                <input type="email" id="email" required placeholder="Email cadastrado">
+                <!-- Define um campo de texto para o email -->
+            </div>
+        </div>
+    </div>
 </body>
 </html>
