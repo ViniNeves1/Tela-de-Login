@@ -70,4 +70,4 @@ document.getElementById('olho').addEventListener('mousemove', function() {
     document.getElementById('password').type = 'password';
 });
 
-// Aqui temos uma função que exibi a senha ao clicar no respectivo botão
+// Aqui temos uma função que mostra a senha ao clicar no respectivo botão
